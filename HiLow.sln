@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiLow.API", "VisionBox_HiLow\HiLow.API.csproj", "{72218C5B-A297-4E1D-A1CD-17E8D444D040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD159F36-6629-4E7A-9FF4-46FA36E52AE4}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		VisionBox_HiLow\Dockerfile = VisionBox_HiLow\Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{24A579B9-EE5E-4D17-8BE2-8E0AD0525DB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F6EAEDDC-5D6E-4412-8816-1528FFA82772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiLow.Application", "HiLow.Application\HiLow.Application.csproj", "{684B6766-2D2D-42FF-B98C-502002E88937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiLow.Entity", "HiLow.Entity\HiLow.Entity.csproj", "{E3CDE675-100F-4417-BD5F-E336CF83E6B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiLow.Infrasctructure", "HiLow.Infrasctructure\HiLow.Infrasctructure.csproj", "{07897FF3-6324-4172-8E12-BD35C46BCEC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72218C5B-A297-4E1D-A1CD-17E8D444D040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72218C5B-A297-4E1D-A1CD-17E8D444D040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72218C5B-A297-4E1D-A1CD-17E8D444D040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72218C5B-A297-4E1D-A1CD-17E8D444D040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684B6766-2D2D-42FF-B98C-502002E88937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684B6766-2D2D-42FF-B98C-502002E88937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684B6766-2D2D-42FF-B98C-502002E88937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684B6766-2D2D-42FF-B98C-502002E88937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3CDE675-100F-4417-BD5F-E336CF83E6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CDE675-100F-4417-BD5F-E336CF83E6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CDE675-100F-4417-BD5F-E336CF83E6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CDE675-100F-4417-BD5F-E336CF83E6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07897FF3-6324-4172-8E12-BD35C46BCEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07897FF3-6324-4172-8E12-BD35C46BCEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07897FF3-6324-4172-8E12-BD35C46BCEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07897FF3-6324-4172-8E12-BD35C46BCEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72218C5B-A297-4E1D-A1CD-17E8D444D040} = {24A579B9-EE5E-4D17-8BE2-8E0AD0525DB3}
+		{684B6766-2D2D-42FF-B98C-502002E88937} = {24A579B9-EE5E-4D17-8BE2-8E0AD0525DB3}
+		{E3CDE675-100F-4417-BD5F-E336CF83E6B7} = {24A579B9-EE5E-4D17-8BE2-8E0AD0525DB3}
+		{07897FF3-6324-4172-8E12-BD35C46BCEC4} = {24A579B9-EE5E-4D17-8BE2-8E0AD0525DB3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5962DE28-C32D-41B6-8688-273CB30131FA}
+	EndGlobalSection
+EndGlobal
