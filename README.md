@@ -9,3 +9,7 @@ Web API Developed suing techs, like:
 - SOLID principle 
 - Design patterns used were: Strategy and Decorator
 - Swagger
+
+Next steps:
+- Unit Tests
+- Docker
